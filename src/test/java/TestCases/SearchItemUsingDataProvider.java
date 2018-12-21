@@ -27,6 +27,10 @@ public class SearchItemUsingDataProvider {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys(product);
 	}
+	@Test
+	public void test(){
+		System.out.println("For testing");
+	}
 
 	@DataProvider(name="data")
 	public Object[][] readdata() {

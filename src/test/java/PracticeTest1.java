@@ -14,6 +14,10 @@ public class PracticeTest1 {
 	driver.get("http://redbus.in");
 	
 	}
+	@Test
+	public void test2(){
+		System.out.println("For testing purpose only");
+	}
 	
 	
 }
